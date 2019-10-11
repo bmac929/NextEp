@@ -10,7 +10,7 @@ const User = require("./models/users");
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-mongoose.connect("mongodb://localhost/nextepdb", { useNewUrlParser: true });
+mongoose.connect("mongodb://bmac:Brandon9git @ds333238.mlab.com:33238/heroku_2qgcgftl", { useNewUrlParser: true });
 
 app.use(express.static('public'));
 
